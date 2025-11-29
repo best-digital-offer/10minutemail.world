@@ -1,0 +1,54 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://10minutemail.world/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow any admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.webp
+
+# SEO-friendly directives
+# Allow indexing of all public pages
+Allow: /index.html
+Allow: /temp-mail-generator.html
+Allow: /disposable-email.html
+Allow: /fake-email-generator.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /contact.html
